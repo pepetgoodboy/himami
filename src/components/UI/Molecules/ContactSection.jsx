@@ -6,7 +6,7 @@ import Instagram from "../../../assets/icons/instagram.png";
 export default function ContactSection() {
   return (
     <>
-      <div className="px-6 md:px-12">
+      <div className="w-11/12 2xl:w-5/6 mx-auto">
         <div
           className="flex flex-col rounded-3xl bg-primary bg-center bg-cover bg-no-repeat bg-blend-screen h-[80svh] lg:h-[110svh]"
           style={{ backgroundImage: `url(./bg-contact.jpg)` }}

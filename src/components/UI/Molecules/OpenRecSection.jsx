@@ -39,7 +39,7 @@ export default function OpenRecSection() {
 
   return (
     <>
-      <div className="px-6 md:px-12">
+      <div className="w-11/12 2xl:w-5/6 mx-auto">
         <div
           className="flex flex-col rounded-3xl bg-primary bg-center bg-cover bg-no-repeat bg-blend-screen h-[80svh] lg:h-[110svh]"
           style={{ backgroundImage: `url(./bg-oprec.jpg)` }}
@@ -64,7 +64,12 @@ export default function OpenRecSection() {
             <div className="flex flex-col gap-4">
               <div className="flex flex-col gap-4 md:grid md:grid-cols-2">
                 <Input type="text" id="npm" name="npm" placeholder="NPM" />
-                <Input type="text" id="name" name="name" placeholder="Nama" />
+                <Input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nama Lengkap"
+                />
               </div>
               <Textarea
                 id="alasan"

@@ -2,7 +2,7 @@ export default function Card({ image, title, desc }) {
   return (
     <>
       <div
-        className="flex flex-col gap-4 shadow-md rounded-2xl hover:border-[3px] hover:border-primary hover:scale-110 transition-all duration-300"
+        className="flex flex-col gap-4 shadow-md rounded-2xl hover:border-[3px] hover:border-slate-200 hover:scale-110 transition-all duration-300"
         data-aos="zoom-in"
       >
         <img src={image} className="rounded-t-2xl h-60 object-cover" />

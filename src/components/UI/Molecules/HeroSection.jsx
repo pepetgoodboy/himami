@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 export default function HeroSection() {
   return (
     <>
-      <div className="px-6 md:px-12">
+      <div className="w-11/12 2xl:w-5/6 mx-auto">
         <div
           className="flex rounded-3xl bg-primary bg-center bg-cover bg-no-repeat bg-blend-screen justify-center items-center h-[80svh] lg:h-[110svh]"
           style={{

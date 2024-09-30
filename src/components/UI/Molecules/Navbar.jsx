@@ -28,7 +28,7 @@ export default function Navbar() {
                   <img src={LogoPraktisi} className="w-auto h-6 md:h-8" />
                 </div>
                 <div>
-                  <p className="ml-1 text-[10px] md:text-xs font-fredoka font-medium text-gray-900 text-center">
+                  <p className="ml-1 text-[10px] md:text-xs font-jakarta font-semibold text-gray-900 text-center">
                     HIMAMI 2025
                   </p>
                 </div>

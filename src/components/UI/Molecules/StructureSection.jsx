@@ -12,7 +12,7 @@ export default function StructureSection() {
             <span className="text-primary tracking-wider md:tracking-wide">
               Struktur
             </span>{" "}
-            <span className="text-secondaryHover tracking-wider md:tracking-wide underline">
+            <span className="text-secondaryhover tracking-wider md:tracking-wide underline">
               Organisasi
             </span>
           </h3>
