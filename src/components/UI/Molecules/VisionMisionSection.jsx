@@ -1,4 +1,4 @@
-import Noval from "../../../assets/images/anggota/Noval2.png";
+import Noval from "../../../assets/images/anggota/Noval2.webp";
 
 export default function VisionMisionSection() {
   return (

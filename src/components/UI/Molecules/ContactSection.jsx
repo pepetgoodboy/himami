@@ -9,7 +9,7 @@ export default function ContactSection() {
       <div className="w-11/12 2xl:w-5/6 mx-auto">
         <div
           className="flex flex-col rounded-3xl bg-primary bg-center bg-cover bg-no-repeat bg-blend-screen h-[80svh] lg:h-[110svh]"
-          style={{ backgroundImage: `url(./bg-contact.jpg)` }}
+          style={{ backgroundImage: `url(./bg-contact.webp)` }}
         >
           <div
             className="flex flex-col gap-4 w-11/12 md:w-5/6 mx-auto py-8 md:py-16 lg:py-28"

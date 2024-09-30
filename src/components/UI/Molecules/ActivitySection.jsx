@@ -1,7 +1,7 @@
-import ITC from "../../../assets/images/kegiatan/itc1.jpg";
-import Gathering from "../../../assets/images/kegiatan/mini_gathering1.jpg";
-import Rotr from "../../../assets/images/kegiatan/rotr2.jpeg";
-import DevFest from "../../../assets/images/kegiatan/devfest3.jpg";
+import ITC from "../../../assets/images/kegiatan/itc1.webp";
+import Gathering from "../../../assets/images/kegiatan/mini_gathering1.webp";
+import Rotr from "../../../assets/images/kegiatan/rotr2.webp";
+import DevFest from "../../../assets/images/kegiatan/devfest3.webp";
 import Card from "../Atoms/Card/Card";
 
 export default function ActivitySection() {

@@ -7,7 +7,7 @@ export default function HeroSection() {
         <div
           className="flex rounded-3xl bg-primary bg-center bg-cover bg-no-repeat bg-blend-screen justify-center items-center h-[80svh] lg:h-[110svh]"
           style={{
-            backgroundImage: `url(./bg-himami.jpg)`,
+            backgroundImage: `url(./bg-himami.webp)`,
           }}
         >
           <div className="flex flex-col space-y-8">

@@ -1,6 +1,6 @@
-import ITC from "../../../assets/images/kegiatan/itc2.jpg";
-import Gathering from "../../../assets/images/kegiatan/devfest1.jpg";
-import Rotr from "../../../assets/images/kegiatan/rotr1.jpeg";
+import ITC from "../../../assets/images/kegiatan/itc2.webp";
+import Gathering from "../../../assets/images/kegiatan/devfest1.webp";
+import Rotr from "../../../assets/images/kegiatan/rotr1.webp";
 import Card from "../Atoms/Card/Card";
 
 export default function BenefitSection() {
