@@ -11,7 +11,10 @@ export default function StructureMember({
         className="flex flex-col w-11/12 md:w-5/6 mx-auto"
         data-aos="fade-up"
       >
-        <div className="h-72 lg:h-96 bg-logoHimami bg-center bg-contain bg-no-repeat">
+        <div
+          className="h-72 lg:h-96 bg-center bg-contain bg-no-repeat"
+          style={{ backgroundImage: `url(./logo_himami.png)` }}
+        >
           <div className="flex justify-center items-center">
             <img src={image} className={`${sizeImage}`} />
           </div>

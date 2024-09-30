@@ -4,7 +4,12 @@ export default function HeroSection() {
   return (
     <>
       <div className="px-6 md:px-12">
-        <div className="flex rounded-3xl bg-himami bg-primary bg-center bg-cover bg-no-repeat bg-blend-screen justify-center items-center h-[80svh] lg:h-[110svh]">
+        <div
+          className="flex rounded-3xl bg-primary bg-center bg-cover bg-no-repeat bg-blend-screen justify-center items-center h-[80svh] lg:h-[110svh]"
+          style={{
+            backgroundImage: `url(./bg-himami.jpg)`,
+          }}
+        >
           <div className="flex flex-col space-y-8">
             <div className="flex flex-col w-11/12 sm:w-5/6 mx-auto leading-tight text-center text-white font-extrabold font-jakarta text-4xl md:text-5xl lg:text-7xl -mt-0 md:-mt-20">
               <h2>HIMPUNAN MAHASISWA</h2>

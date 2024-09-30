@@ -17,7 +17,8 @@ export default function VisionMisionSection() {
           </div>
           <div className="flex flex-col lg:flex-row lg:gap-10">
             <div
-              className="w-11/12 lg:w-[40%] h-80 md:h-96 lg:h-96 mx-auto bg-logoHimami bg-center bg-contain bg-no-repeat"
+              className="w-11/12 lg:w-[40%] h-80 md:h-96 lg:h-96 mx-auto bg-center bg-contain bg-no-repeat"
+              style={{ backgroundImage: `url(./logo_himami.png)` }}
               data-aos="fade-right"
             >
               <div className="flex justify-center items-center">
