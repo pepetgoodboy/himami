@@ -56,7 +56,7 @@ export default function StructureMemberSection() {
         <StructureMember
           image={Selly}
           alt="Selly"
-          sizeImage="h-[260px] lg:h-[340px] -mt-6"
+          sizeImage="h-[220px] lg:h-[300px] mt-5"
           name="Selly Rahma Ilahi"
           position="Bendahara Umum 1 Himami"
           variant="bg-tertiary"
@@ -72,7 +72,7 @@ export default function StructureMemberSection() {
         <StructureMember
           image={Winda}
           alt="Winda"
-          sizeImage="h-[230px] lg:h-[300px] mt-2 lg:mt-4"
+          sizeImage="h-[210px] lg:h-[280px] mt-7 lg:mt-10"
           name="Winda Sukmawati"
           position="Ketua Divisi Pendidikan Himami"
           variant="bg-tertiary"
@@ -112,7 +112,7 @@ export default function StructureMemberSection() {
         <StructureMember
           image={Fahmi}
           alt="Fahmi"
-          sizeImage="h-[240px] lg:h-[320px] -mt-0 mr-4"
+          sizeImage="h-[200px] lg:h-[280px] mt-9 mr-4"
           name="Fahmi Syahwal Gumelar"
           position="Wakil Ketua Divisi Kominfo Himami"
           variant="bg-secondaryhover"
@@ -136,7 +136,7 @@ export default function StructureMemberSection() {
         <StructureMember
           image={Oca}
           alt="Oca"
-          sizeImage="h-[260px] lg:h-[340px] -mt-6"
+          sizeImage="h-[240px] lg:h-[340px] -mt-1"
           name="Khansa Mujahidah"
           position="Ketua Divisi Sosbud Himami"
           variant="bg-tertiary"

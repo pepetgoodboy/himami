@@ -11,7 +11,8 @@ export default function Card({ image, alt, title, desc }) {
           src={image}
           alt={alt}
           loading="lazy"
-          className="rounded-t-2xl h-60 object-cover"
+          className="h-60 object-cover"
+          variant="rounded-t-2xl"
         />
         <div className="flex flex-col gap-1 px-4 py-4">
           <h4 className="text-lg font-semibold font-jakarta">{title}</h4>
