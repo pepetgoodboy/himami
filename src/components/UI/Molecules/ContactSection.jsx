@@ -25,16 +25,19 @@ export default function ContactSection() {
           <div className="w-11/12 mx-auto py-2 md:py-6 lg:py-10 flex flex-col gap-4 md:grid md:grid-cols-2 lg:grid-cols-3 text-gray-700">
             <CardContact
               image={Email}
+              alt="Email"
               title="Email"
               field="himamipraktisi25@gmail.com"
             />
             <CardContact
               image={Instagram}
+              alt="Instagram"
               title="Instagram"
               field="@himami_praktisi"
             />
             <CardContact
               image={Call}
+              alt="Call"
               title="Telp & Whatsapp"
               field="0813-9643-6609"
             />

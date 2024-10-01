@@ -25,17 +25,20 @@ export default function DivisionSection() {
           >
             <Division
               image={Pendidikan}
+              alt="Pendidikan"
               name="Pendidikan"
               jobdesk="Divisi Pendidikan bertanggung jawab untuk mengurus aspek yang
                 berkaitan dengan akademis mahasiswa Manajemen Informatika"
             />
             <Division
               image={Kominfo}
+              alt="Kominfo"
               name="Kominfo"
               jobdesk="Divisi Kominfo bertanggung jawab mengelola semua bentuk komunikasi dan informasi himpunan, termasuk website, media sosial, dan publikasi."
             />
             <Division
               image={Sosbud}
+              alt="Sosbud"
               name="Sosial Budaya & Kewirus"
               jobdesk="Divisi Sosbud & Kewirus bertanggung jawab membina hubungan antar anggota dan masyarakat luas melalui kegiatan sosial, budaya, dan pengembangan bisnis."
             />

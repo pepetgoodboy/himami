@@ -25,18 +25,21 @@ export default function BenefitSection() {
           >
             <Card
               image={ITC}
+              alt="ITC"
               title="Pengembangan Soft Skills"
               desc="Mendapatkan pengetahuan dan keterampilan terkini di bidang
                   teknologi informasi."
             />
             <Card
               image={Gathering}
+              alt="Gathering"
               title="Networking yang Luas"
               desc="Membangun relasi dengan dosen, alumni, dan praktisi di bidang
                   IT."
             />
             <Card
               image={Rotr}
+              alt="Rotr"
               title="Kontribusi untuk Masyarakat"
               desc="Berpartisipasi dalam kegiatan sosial yang bermanfaat bagi
                   masyarakat."

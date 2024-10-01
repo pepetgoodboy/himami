@@ -1,5 +1,8 @@
+import ResponsiveImage from "../ResponsiveImage/ResponsiveImage";
+
 export default function StructureMember({
   image,
+  alt,
   name,
   position,
   sizeImage,
@@ -16,7 +19,12 @@ export default function StructureMember({
           style={{ backgroundImage: `url(./logo_himami.png)` }}
         >
           <div className="flex justify-center items-center">
-            <img src={image} className={`${sizeImage}`} />
+            <ResponsiveImage
+              src={image}
+              alt={alt}
+              loading="lazy"
+              className={`${sizeImage}`}
+            />
           </div>
         </div>
         <div

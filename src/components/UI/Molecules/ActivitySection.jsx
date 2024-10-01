@@ -23,21 +23,25 @@ export default function ActivitySection() {
           <div className="px-2 md:px-0 flex flex-col gap-12 md:gap-8 md:grid md:grid-cols-2 lg:grid-cols-3 py-8">
             <Card
               image={ITC}
+              alt="ITC"
               title="IT Club"
               desc="Berbagi pengetahuan terkait mata kuliah yang nantinya akan dipelajari dan pengetahuan seputar teknologi informasi."
             />
             <Card
               image={DevFest}
+              alt="DevFest"
               title="Devcember Fest"
               desc="Menjadi tuan rumah pada event Devcember yang diadakan oleh alkademi.idn dan smkcoding.id"
             />
             <Card
               image={Gathering}
+              alt="Gathering"
               title="Mini Gathering"
               desc="Berkumpul bersama seluruh mahasiswa dan dosen Manajemen Informatika Politeknik Praktisi untuk mempererat tali silaturahmi antar anggota."
             />
             <Card
               image={Rotr}
+              alt="Rotr"
               title="Ramadhan On The Road"
               desc="Kegiatan sosial yang dilakukan selama bulan Ramadhan, seperti berbagi takjil kepada masyarakat dan melakukan buka puasa bersama."
             />

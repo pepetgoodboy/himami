@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import Logo from "../../../assets/logo/logo_himami.png";
-import LogoPraktisi from "../../../assets/logo/logo_praktisi.png";
+import Logo from "../../../assets/logo/logo_himami.webp";
+import LogoPraktisi from "../../../assets/logo/logo_praktisi.webp";
+import ResponsiveImage from "../Atoms/ResponsiveImage/ResponsiveImage";
 import { CgMenu } from "react-icons/cg";
 import { IoClose } from "react-icons/io5";
 import { AiFillInstagram } from "react-icons/ai";
@@ -24,8 +25,16 @@ export default function Navbar() {
             <div className="flex space-x-28">
               <div className="flex flex-col items-center justify-center">
                 <div className="flex items-center gap-1">
-                  <img src={Logo} className="w-auto h-8 md:h-10" />
-                  <img src={LogoPraktisi} className="w-auto h-6 md:h-8" />
+                  <ResponsiveImage
+                    src={Logo}
+                    alt="logo_himami"
+                    className="w-auto h-8 md:h-10"
+                  />
+                  <ResponsiveImage
+                    src={LogoPraktisi}
+                    alt="logo_praktisi"
+                    className="w-auto h-6 md:h-8"
+                  />
                 </div>
                 <div>
                   <p className="ml-1 text-[10px] md:text-xs font-jakarta font-semibold text-gray-900 text-center">
@@ -87,6 +96,7 @@ export default function Navbar() {
               <Link
                 to="https://www.instagram.com/himami_praktisi"
                 target="_blank"
+                aria-label="instagram"
                 className="w-10 mx-auto p-1 rounded-full border border-gray-700"
               >
                 <AiFillInstagram className="w-7 h-7 ml-[1px] text-gray-700 hover:text-[#FFD800] transition duration-300 ease-in" />

@@ -2,6 +2,7 @@ import ButtonSuggestion from "../Atoms/Button/ButtonSuggestion";
 import TextareaSuggestion from "../Atoms/Textarea/TextareaSuggestion";
 import SuggestionIcon from "../../../assets/icons/suggest.png";
 import Swal from "sweetalert2";
+import ResponsiveImage from "../Atoms/ResponsiveImage/ResponsiveImage";
 
 export default function SuggestionSection() {
   const handleSubmit = async (e) => {
@@ -68,7 +69,12 @@ export default function SuggestionSection() {
               </form>
             </div>
             <div className="hidden xl:w-[35%] xl:flex xl:justify-center xl:items-center">
-              <img src={SuggestionIcon} className="w-[70%]" />
+              <ResponsiveImage
+                src={SuggestionIcon}
+                alt="suggestion"
+                loading="lazy"
+                className="w-[70%]"
+              />
             </div>
           </div>
         </div>

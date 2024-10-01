@@ -1,4 +1,5 @@
 import Noval from "../../../assets/images/anggota/Noval2.webp";
+import ResponsiveImage from "../Atoms/ResponsiveImage/ResponsiveImage";
 
 export default function VisionMisionSection() {
   return (
@@ -22,8 +23,9 @@ export default function VisionMisionSection() {
               data-aos="fade-right"
             >
               <div className="flex justify-center items-center">
-                <img
+                <ResponsiveImage
                   src={Noval}
+                  alt="noval"
                   className="h-72 md:h-[400px] lg:h-[370px] mr-4 md:mr-6 lg:mr-7 -mt-5 md:-mt-20 lg:-mt-12"
                 />
               </div>

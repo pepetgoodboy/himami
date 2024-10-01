@@ -23,6 +23,7 @@ export default function StructureMemberSection() {
       <div className="flex flex-col gap-6 md:grid md:grid-cols-2">
         <StructureMember
           image={Noval}
+          alt="Noval"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11"
           name="Noval Rizky Nugraha A"
           position="Ketua Umum Himami"
@@ -30,6 +31,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Dika}
+          alt="Dika"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11"
           name="Dika Wahyu Prayogo"
           position="Wakil Ketua Umum Himami"
@@ -37,6 +39,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Feri}
+          alt="Hendi"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11"
           name="Hendi"
           position="Sekretaris Umum 1 Himami"
@@ -44,6 +47,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Fauzi}
+          alt="Fauzi"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11"
           name="Fauzi Ahmad Simatupang"
           position="Sekretaris Umum 2 Himami"
@@ -51,6 +55,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Selly}
+          alt="Selly"
           sizeImage="h-[260px] lg:h-[340px] -mt-6"
           name="Selly Rahma Ilahi"
           position="Bendahara Umum 1 Himami"
@@ -58,6 +63,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Salma}
+          alt="Salma"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11 mr-2 lg:mr-0"
           name="Salma Febryatha Zaniar"
           position="Bendahara Umum 2 Himami"
@@ -65,6 +71,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Winda}
+          alt="Winda"
           sizeImage="h-[230px] lg:h-[300px] mt-2 lg:mt-4"
           name="Winda Sukmawati"
           position="Ketua Divisi Pendidikan Himami"
@@ -72,6 +79,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Feri}
+          alt="Feri"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11"
           name="Feri Ahmad Arifin"
           position="Wakil Ketua Divisi Pendidikan Himami"
@@ -79,6 +87,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Naila}
+          alt="Naila"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11 mr-4 lg:mr-0"
           name="Na'ilah Salsabil Dalimunthe"
           position="Anggota Divisi Pendidikan Himami"
@@ -86,6 +95,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Rahva}
+          alt="Rahva"
           name="Rahva Amelia"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11"
           position="Anggota Divisi Pendidikan Himami"
@@ -93,6 +103,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Iqbal}
+          alt="Iqbal"
           sizeImage="h-[240px] lg:h-[320px] -mt-0"
           name="Muhammad Iqbal Mudzaki"
           position="Ketua Divisi Kominfo Himami"
@@ -100,6 +111,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Fahmi}
+          alt="Fahmi"
           sizeImage="h-[240px] lg:h-[320px] -mt-0 mr-4"
           name="Fahmi Syahwal Gumelar"
           position="Wakil Ketua Divisi Kominfo Himami"
@@ -107,6 +119,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Dimas}
+          alt="Dimas"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11"
           name="Dimas Nur"
           position="Anggota Divisi Kominfo Himami"
@@ -114,6 +127,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Bimo}
+          alt="Bimo"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11"
           name="Marconi Aryo Bimo"
           position="Anggota Divisi Kominfo Himami"
@@ -121,6 +135,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Oca}
+          alt="Oca"
           sizeImage="h-[260px] lg:h-[340px] -mt-6"
           name="Khansa Mujahidah"
           position="Ketua Divisi Sosbud Himami"
@@ -128,6 +143,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Rafly}
+          alt="Rafly"
           sizeImage="h-80 -mt-20 lg:-mt-40 lg:h-[480px]"
           name="Ahmad Rafly Harahap"
           position="Wakil Ketua Divisi Sosbud Himami"
@@ -135,6 +151,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Rifki}
+          alt="Rifki"
           name="Rifky Salim Lubis"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11"
           position="Anggota Divisi Sosbud Himami"
@@ -142,6 +159,7 @@ export default function StructureMemberSection() {
         />
         <StructureMember
           image={Aulia}
+          alt="Aulia"
           sizeImage="h-[260px] lg:h-[360px] -mt-6 lg:-mt-11 mr-6 lg:mr-4"
           name="Aulia Rizky Ananda S"
           position="Anggota Divisi Sosbud Himami"
