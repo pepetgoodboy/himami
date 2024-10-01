@@ -54,7 +54,7 @@ export default function Navbar() {
               <Button
                 link="/contact"
                 name="Hubungi Kami"
-                variant="text-white font-semibold"
+                variant="text-white font-bold"
               />
             </div>
             {/* Button Menu */}
@@ -91,7 +91,7 @@ export default function Navbar() {
               <Button
                 link="/contact"
                 name="Hubungi Kami"
-                variant="text-white font-semibold"
+                variant="text-white font-bold"
               />
               <Link
                 to="https://www.instagram.com/himami_praktisi"

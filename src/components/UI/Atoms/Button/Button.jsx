@@ -6,7 +6,7 @@ export default function Button({ link, name, variant }) {
       <Link to={link}>
         <button
           type="button"
-          className={`px-5 py-[10px] bg-[#FFD800] hover:bg-[#ffc400] ${variant} rounded-2xl font-medium`}
+          className={`px-5 py-[10px] bg-secondaryhover hover:bg-[#ffae00] ${variant} rounded-2xl`}
         >
           {name}
         </button>
