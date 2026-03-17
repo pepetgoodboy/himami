@@ -1,0 +1,17 @@
+services:
+  himami-fe:
+    container_name: himami-fe
+    build: .
+    image: himami-fe:1.0.0
+    env_file:
+     - .env
+    cpus: 0.15
+    mem_limit: 64m
+    mem_reservation: 16m
+    restart: unless-stopped
+    networks:
+     - pepet-network
+
+networks:
+  pepet-network:
+    external: true
